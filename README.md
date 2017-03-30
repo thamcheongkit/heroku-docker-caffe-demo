@@ -4,7 +4,7 @@
 <hr>
 
 <p>Example <code>POST</code> request:</p>
-<p><code>curl -H "Content-Type: application/json" -X POST \ <br> -d '{"urls":["https://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png"]}' \ <br> -L https://heroku-caffe-test-ck.herokuapp.com/classify</code></p>
+<p><code>curl -H "Content-Type: application/json" -X POST -d '{"urls":["https://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png"]}' -L https://heroku-caffe-test-ck.herokuapp.com/classify</code></p>
 <p>Result:</p>
 <code>{"predictions": [1]}</code>
 
